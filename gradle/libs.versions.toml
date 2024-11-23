@@ -1,0 +1,11 @@
+[versions]
+
+[libraries]
+spring-boot-actuator = { module = "org.springframework.boot:spring-boot-starter-actuator" }
+spring-boot-data-mongodb = { module = "org.springframework.boot:spring-boot-starter-data-mongodb" }
+spring-boot-web = { module = "org.springframework.boot:spring-boot-starter-web" }
+jackson-module-kotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin" }
+micrometer-tracing = { module = "io.micrometer:micrometer-tracing-bridge-brave" }
+kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect" }
+logging = { module = "io.github.microutils:kotlin-logging", version = "3.0.5" }
+[plugins]
