@@ -26,7 +26,6 @@ dependencies {
   implementation(libs.micrometer.tracing)
   implementation(libs.kotlin.reflect)
   implementation(libs.logging)
-  implementation(project(":business-logic"))
   implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.9.0")
   implementation("com.google.code.gson:gson:2.11.0")
   implementation("software.amazon.awssdk:sns:2.29.19")
